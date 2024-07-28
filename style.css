@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.age-cal-section{
+    margin: auto;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 5rem;
+    background-color: white;
+}
+.age-cal-section h2{
+    font-size: 2.3rem;
+}
+.age-cal-section h3{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.age-cal-section .age{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.age-cal-section .age-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    input{
+        width: 50%;
+        height: 2rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+}
+.age-cal-section .age-input button{
+    background-color: #007bff;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out;
+}
+.age-cal-section .age-input button:hover{
+    background-color: #0062cc;;
+}
